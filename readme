@@ -1,0 +1,10 @@
+1 to build:
+
+$ cmake -H. -Bbuild
+$ cmake --build build -- -j3
+
+2 to run:
+
+$ cd bin/
+./main 9  #run the program on randomly generated graph with size 9
+./main (pull a txt file here)  #run the program on the graph in the txt file
