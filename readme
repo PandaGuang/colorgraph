@@ -7,8 +7,8 @@
 1 to build:
 
 1.1 installl boost
- ubuntu: 'sudo apt install libboost-all-dev'
- mac: brew install boost
+ ubuntu: `sudo apt install libboost-all-dev`
+ mac: `brew install boost`
 
 1.2 compile
 mkdir build && cd build
